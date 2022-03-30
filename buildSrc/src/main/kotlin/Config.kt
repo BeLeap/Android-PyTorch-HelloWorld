@@ -8,7 +8,7 @@ object Config {
     const val versionCode = 1
     const val versionName = "1.0.0"
 
-    const val applicationId = "ir.zinutech.android.flickrsearch"
+    const val applicationId = "codes.beleap.android_pytorch_helloworld"
 
     const val androidTestInstrumentation = "androidx.test.runner.AndroidJUnitRunner"
 }
