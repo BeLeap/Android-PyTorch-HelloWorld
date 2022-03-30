@@ -4,8 +4,8 @@ plugins {
 }
 
 android {
-    compileSdkVersion(Config.compileSdkVersion)
-    buildToolsVersion(Config.buildToolsVersion)
+    compileSdk = 32
+    buildToolsVersion("30.0.3")
 
     defaultConfig {
         applicationId = "codes.beleap.android_pytorch_helloworld"

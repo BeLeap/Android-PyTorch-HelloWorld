@@ -1,5 +1,5 @@
 object Versions {
-    const val gradle = "7.1.0"
+    const val gradle = "7.1.2"
     const val kotlin = "1.4.31"
 
     const val coreKtx = "1.2.0"
