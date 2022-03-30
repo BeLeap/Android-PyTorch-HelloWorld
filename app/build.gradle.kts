@@ -5,12 +5,12 @@ plugins {
 
 android {
     compileSdk = 32
-    buildToolsVersion("30.0.3")
+    buildToolsVersion = Config.buildToolsVersion
 
     defaultConfig {
         applicationId = "codes.beleap.android_pytorch_helloworld"
-        minSdkVersion(Config.minSdkVersion)
-        targetSdkVersion(Config.targetSdkVersion)
+        minSdk = Config.minSdkVersion
+        targetSdk = Config.targetSdkVersion
         versionCode = Config.versionCode
         versionName = Config.versionName
 
