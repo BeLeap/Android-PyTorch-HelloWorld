@@ -54,8 +54,11 @@ dependencies {
 
 
     // PyTorch
-    implementation("org.pytorch:pytorch_android_lite:1.12")
-    implementation("org.pytorch:pytorch_android_torchvision_lite:1.12")
+    implementation("org.pytorch:pytorch_android_lite:1.10.0")
+    implementation("org.pytorch:pytorch_android_torchvision_lite:1.10.0")
+
+//    implementation("org.pytorch:pytorch_android:1.12")
+//    implementation("org.pytorch:pytorch_android_torchvision:1.12")
 
 
     // Compose
