@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
                     var bitmap: Bitmap? = null
                     try {
                         bitmap = BitmapFactory.decodeStream(assets.open("image.jpg"))
-                        val modulePath = assetFilePath(this@MainActivity, "model.ptl")
+                        val modulePath = assetFilePath(this@MainActivity, "model.pt")
                         module = LiteModuleLoader.load(modulePath)
                     } catch (e: IOException) {
                         Log.e("PyTorchHelloWorld", "Error reading assets", e)
